@@ -1,0 +1,35 @@
+.array-container {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-self: center;
+  justify-content: center;
+  transform: rotate(180deg);
+  margin-top: 0.5em;
+}
+
+.array-bar {
+  width: 20px;
+  display: inline-block;
+  margin: 0 2px;
+  background-color: turquoise;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons button {
+  background-color: #47535e;
+  border: none;
+  color: #eaf0f1;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  outline: 0;
+  font-family: "Century Gothic", Futura, sans-serif;
+  font-size: 1em;
+  margin: 0 2em;
+}
